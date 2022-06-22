@@ -1,0 +1,16 @@
+.btn-settings {
+    color: rgb(35, 35, 35);
+    background-color: transparent;
+    border: 0px;
+    border-radius: 0px;
+}
+
+.btn_settingContainer :hover {
+    color: rgb(35, 35, 35);
+}
+
+.btn-grip {
+    margin-right: 10px;
+    border: 0px;
+    border-radius: 4px;
+}
