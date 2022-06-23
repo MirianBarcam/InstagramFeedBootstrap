@@ -15,8 +15,15 @@
     justify-content: start;
 }
 
-.btn_settingContainer :hover {
-    color: rgb(35, 35, 35);
+.btn-secondary {
+    --bs-btn-hover-bg: #dddddd;
+    background-color: transparent;
+    border-color: #dddddd;
+}
+
+.btn.show {
+    background-color: #dddddd;
+    border-color: #dddddd;
 }
 
 .btn-grip {
@@ -44,6 +51,30 @@
     margin-top: 80px;
     margin-bottom: 10px;
     z-index: 1;
+}
+
+.modal-create {
+    z-index: 3;
+}
+
+.text-modal {
+    width: 100%;
+}
+
+.buttons_modal {
+    padding-left: 10px;
+    display: flex;
+    justify-content: start;
+}
+
+.btn_icon_modal {
+    margin: 5px;
+    background-color: transparent;
+    border: 1px solid rgb(212, 212, 212);
+}
+
+.btn_cancel_modal {
+    border: 1px solid rgb(212, 212, 212);
 }
 
 /* * {

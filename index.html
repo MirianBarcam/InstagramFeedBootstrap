@@ -23,14 +23,18 @@
                         width="120" height="30" class="d-inline-block align-top" alt="">
                 </a>
                 <div class="col-8 col-xl-6 col-xxl btn_create">
-                    <button type="button" class="btn btn-success">Create a new post</button>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-success " data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">
+                        Create a new post
+                    </button>
                 </div>
                 <div class="col-12 col-xl-12 col-xxl dropdown btn_settingContainer">
-                    <button class="btn btn-secondary dropdown-toggle btn-settings" type="button"
-                        id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    <button class="btn btn-secondary dropdown-toggle btn-settings " type="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
                         <i class="fa-solid fa-gear" style="color: rgb(35, 35, 35);"></i>
                     </button>
-                    <ul class="dropdown-menu">
+                    <ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-start">
                         <li><a class="dropdown-item" href="#">Action</a></li>
                         <li><a class="dropdown-item" href="#">Another action</a></li>
                         <li><a class="dropdown-item" href="#">Something else here</a></li>
@@ -69,6 +73,7 @@
                 alt="" class="col-4 photos img-fluid">
             <img src="https://agenciacomma.com/wp-content/uploads/2021/04/busqueda-inversa-imagenes.jpg" alt=""
                 class="col-4 photos img-fluid">
+
         </div>
         <div class="row">
             <img src="https://cdn.shopify.com/s/files/1/0229/0839/files/buscar-por-imagen-google.jpg?v=1642111030&width=1024"
@@ -149,6 +154,27 @@
                 alt="" class="col-4 photos img-fluid">
             <img src="https://www.holded.com/wp-content/uploads/2017/04/pixabay.jpg" alt=""
                 class="col-4 photos img-fluid">
+        </div>
+    </div>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <textarea class="text-modal " id="exampleModalLabel"></textarea>
+                </div>
+                <div class="buttons_modal">
+                    <button type="button" class="btn btn_icon_modal"><i class="fa-solid fa-camera-retro"></i></button>
+                    <button type="button" class="btn btn_icon_modal"><i class="fa-solid fa-map-pin"></i></button>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-light btn_cancel_modal" data-bs-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-success">Publish</button>
+                </div>
+            </div>
         </div>
     </div>
 
